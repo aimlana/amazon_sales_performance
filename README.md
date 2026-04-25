@@ -2,6 +2,11 @@
 
 ---
 
+## 📑 Data Source
+
+Dataset sourced from Kaggle:
+**[Amazon Sales Dataset — by Aliii Hussain](https://www.kaggle.com/datasets/aliiihussain/amazon-sales-dataset)**
+
 ## 📌 Overview
 
 This project presents an end-to-end analysis of Amazon's sales performance data spanning **2022 to 2023**. Using Python for data cleaning and exploratory data analysis (EDA), alongside an interactive Power BI dashboard, this project uncovers trends in revenue, customer behavior, regional distribution, and product performance to support data-driven business decisions.
