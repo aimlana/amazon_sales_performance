@@ -62,18 +62,22 @@ New features were derived from existing columns to enrich the analysis:
 
 ### 1. Variable Correlation Analysis
 A heatmap of the correlation matrix across all numerical features was generated to identify relationships between variables such as price, quantity, discount, and total revenue.
+
 <img src="images/Variable Correlation Analysis.png" alt="Variable Correlation Analysis" width="600">
 
 ### 2. Revenue by Product Category
 A horizontal bar chart visualized total revenue per product category, revealing which categories drive the most sales.
+
 <img src="images/Revenue by Product Category.png" alt="Variable Correlation Analysis" width="600">
 
 ### 3. Sales Trend Over Time
 A monthly time-series line chart tracked revenue fluctuations from January 2022 to December 2023, highlighting seasonal peaks and troughs.
+
 <img src="images/Sales Trend Over Time.png" alt="Variable Correlation Analysis" width="600">
 
 ### 4. Customer Shopping Activity by Day of Week
 A count plot analyzed transaction frequency across each day of the week to identify peak shopping days.
+
 <img src="images/Customer Shopping Activity by Day of Week.png" alt="Variable Correlation Analysis" width="600">
 
 ---
