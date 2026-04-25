@@ -60,21 +60,21 @@ New features were derived from existing columns to enrich the analysis:
 
 ### C. EDA & Visualizations
 
-**1. Variable Correlation Analysis**
+### 1. Variable Correlation Analysis
 A heatmap of the correlation matrix across all numerical features was generated to identify relationships between variables such as price, quantity, discount, and total revenue.
-![Variable Correlation Analysis](images/Variable%20Correlation%20Analysis.png)
+<img src="images/Variable Correlation Analysis.png" alt="Variable Correlation Analysis" width="600">
 
-**2. Revenue by Product Category**
+### 2. Revenue by Product Category
 A horizontal bar chart visualized total revenue per product category, revealing which categories drive the most sales.
-![Revenue by Product Category](images/Revenue%20by%20Product%20Category.png)
+<img src="images/Revenue by Product Category.png" alt="Variable Correlation Analysis" width="600">
 
-**3. Sales Trend Over Time**
+### 3. Sales Trend Over Time
 A monthly time-series line chart tracked revenue fluctuations from January 2022 to December 2023, highlighting seasonal peaks and troughs.
-![Sales Trend Over Time](images/Sales%20Trend%20Over%20Time.png)
+<img src="images/Sales Trend Over Time.png" alt="Variable Correlation Analysis" width="600">
 
-**4. Customer Shopping Activity by Day of Week**
+### 4. Customer Shopping Activity by Day of Week
 A count plot analyzed transaction frequency across each day of the week to identify peak shopping days.
-![Customer Shopping Activity by Day of Week](images/Customer%20Shopping%20Activity%20by%20Day%20of%20Week.png)
+<img src="images/Customer Shopping Activity by Day of Week.png" alt="Variable Correlation Analysis" width="600">
 
 ---
 ## 📊 Dashboard Overview
@@ -102,15 +102,65 @@ A visible dip in revenue occurred in **February 2023**, which may correlate with
 
 ---
 
-## ✅ Conclusion
+## ✅ Conclusion & Solutions
 
-The Amazon Sales Performance analysis reveals a **stable but stagnant business** with strong diversification across products, regions, and payment methods. While the balanced distribution across dimensions is a sign of resilience, the near-zero monthly growth rate signals an urgent need for strategic interventions.
+The Amazon Sales Performance analysis reveals a **stable but stagnant business** with strong diversification across products, regions, and payment methods. While the balanced distribution across dimensions is a sign of resilience, the near-zero monthly growth rate (-0.05%) signals an urgent need for strategic interventions.
 
-**Recommended next steps:**
-- Launch **targeted promotions** during low-revenue months (e.g., February) to smooth out seasonal dips.
-- Investigate high-performing subcategories within each product group to identify growth drivers.
-- Consider region-specific campaigns — while revenue is balanced, growth opportunities may exist in underpenetrated markets.
-- Leverage the diversity of payment methods as a competitive advantage in marketing campaigns.
+---
+
+### 🔴 Problem 1: Stagnant Revenue Growth (-0.05% Monthly)
+
+**Root Cause:** No significant increase in new customers, order volume, or average order value over the 2-year period.
+
+**Solutions:**
+- 🎯 **Flash Sales & Limited-Time Deals** — Run aggressive time-limited promotions (e.g., 48-hour deals) to create urgency and spike order volume.
+- 👥 **Customer Acquisition Campaigns** — Invest in paid ads targeting new customer segments, particularly in high-potential demographics.
+- 🔁 **Loyalty & Retention Program** — Introduce a reward points system to incentivize repeat purchases and increase purchase frequency per customer.
+- 📦 **Bundle Offers** — Package complementary products (e.g., Electronics + accessories) to increase Average Order Value (AOV) beyond the current $657.33.
+
+---
+
+### 🔴 Problem 2: Revenue Dip in February 2023
+
+**Root Cause:** Post-holiday slowdown with no promotional activity to sustain momentum.
+
+**Solutions:**
+- 💝 **Valentine's Day Campaign** — Capitalize on February's Valentine's Day with targeted promotions on Beauty, Fashion, and Books categories.
+- 🏷️ **Off-Season Discounts** — Offer exclusive discounts in slow months to maintain customer engagement and prevent revenue from dropping below the monthly average.
+- 📧 **Email & Push Notification Re-engagement** — Target dormant customers with personalized offers during low-traffic periods to bring them back.
+
+---
+
+### 🔴 Problem 3: No Dominant Product Category
+
+**Root Cause:** Revenue is spread almost equally across all 6 categories ($5.4M–$5.6M), indicating no hero product driving outsized growth.
+
+**Solutions:**
+- 🔍 **Subcategory Deep Dive** — Analyze subcategory-level data to identify the top-performing products within each category and scale their visibility.
+- ⭐ **Featured & Sponsored Listings** — Promote top-selling products in high-visibility placements (homepage banners, search top results).
+- 📈 **Category-Specific Growth Targets** — Set differentiated growth targets per category based on market demand and margin potential.
+
+---
+
+### 🔴 Problem 4: Balanced but Untapped Regional Revenue
+
+**Root Cause:** All regions contribute equally (~$8.1M–$8.3M), suggesting no region is being actively optimized for growth.
+
+**Solutions:**
+- 🌏 **Region-Specific Marketing** — Tailor promotions to local culture and events (e.g., Ramadan deals for Middle East, Black Friday for North America).
+- 🚚 **Localized Logistics & Delivery** — Improve delivery speed and reduce shipping costs in high-potential regions to drive conversion rates.
+- 🌐 **Language & Currency Localization** — Personalize the shopping experience by offering local language support and regional currency pricing.
+
+---
+
+### 🔴 Problem 5: Payment Method Fragmentation
+
+**Root Cause:** No payment method exceeds 21% share, which while inclusive, makes it harder to optimize checkout experiences.
+
+**Solutions:**
+- 💰 **Payment-Specific Cashback Offers** — Partner with digital wallet providers (e.g., offer 5% cashback for Wallet payments) to shift volume toward lower-cost payment methods.
+- ⚡ **One-Click Checkout** — Streamline the payment experience for preferred methods to reduce cart abandonment.
+- 🤝 **Buy Now Pay Later (BNPL)** — Introduce BNPL options to attract price-sensitive customers and increase AOV.
 
 ---
 
